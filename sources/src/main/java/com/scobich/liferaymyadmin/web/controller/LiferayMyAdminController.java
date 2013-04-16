@@ -1,4 +1,4 @@
-package com.scobich.liferaymyadmin.controller;
+package com.scobich.liferaymyadmin.web.controller;
 
 import javax.portlet.RenderRequest;
 import javax.portlet.RenderResponse;
@@ -14,6 +14,7 @@ public class LiferayMyAdminController {
 
 	@RenderMapping
 	public String view(RenderRequest request, RenderResponse response, Model model) {
+		
 		return "view";
 	}
 	
