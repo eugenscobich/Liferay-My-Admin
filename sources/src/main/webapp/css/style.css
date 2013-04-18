@@ -1,0 +1,9 @@
+.liferay-my-admin .title {
+	width: 80px;
+	line-height: 26px;
+	float: left;
+}
+.liferay-my-admin .content {
+	padding-left: 80px;
+	line-height: 26px;
+}
