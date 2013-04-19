@@ -4,10 +4,10 @@
 <%@ taglib prefix="portlet" uri="http://java.sun.com/portlet" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
-<portlet:actionURL name="login" var="loginAction"/>
+<portlet:actionURL name="connect" var="connectAction"/>
 
 <div class="liferay-my-admin">
-	<form:form action="${loginAction}" method="post" modelAttribute="loginModel">
+	<form:form action="${connectAction}" method="post" modelAttribute="loginModel">
 		<div>
 			<div class="title">
 				<form:label path="driver"><spring:message code="Driver"/>:</form:label>	
